@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   }
   s.author   = { 'Alex Denisov' => '1101.debian@gmail.com' }
   s.source   = { :git => 'https://github.com/AlexDenisov/iActiveRecord.git', :commit => '820f99422b56bb77c5a389f40bb54630096101be'}
-  s.platform = :ios, '5.0'
   s.source_files = 'iActiveRecord/**/*.{c,h,m,mm}'
   s.library = 'sqlite3'
   s.requires_arc = true
